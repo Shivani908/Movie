@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link, Outlet, useLocation, useNavigate, useParams } from 'react-router-dom'
 import { asyncloadtv,} from '../store/actions/tvAction';
 import HorizontalCards from './partials/HorizontalCards';
-import noimage from "/noimage.jpg"
+// import noimage from "/noimage.jpg"
 
 const Tvdetails = () => {
 
