@@ -1,5 +1,5 @@
-import { removemovie } from "../reducers/movieslice";
-import { loadmovie} from "../reducers/movieslice";
+import { removemovie } from "../reducers/movieSlice";
+import { loadmovie} from "../reducers/movieSlice";
 import axios from "../../utils/axios";
 
 export const asyncloadmovie = (id) => async (dispatch,getState) =>{
@@ -27,3 +27,5 @@ export const asyncloadmovie = (id) => async (dispatch,getState) =>{
         // console.log("Error:",error);
     }
 };
+
+
