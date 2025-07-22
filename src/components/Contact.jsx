@@ -10,7 +10,6 @@ const Contact = () => {
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
-
     const res = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       headers: {
